@@ -1,0 +1,59 @@
+    3  git clone https://github.com/elizabethh34/sd130-assignment-2-repo-4.git assignment2
+    4  cd assignment2
+    5  git switch -C issue-1
+    6  code .
+    7  ls
+    8  cd src/styles
+    9  touch styles2.css
+   10  git status
+   11  git add .
+   12  git status
+   13  git commit -m "Initial commit of styles2.css file"
+   14  git status
+   15  git staus
+   16  git status
+   17  git add .
+   18  git commit -m "Update the colours of the headings"
+   19  git status
+   20  git status
+   21  git add .
+   22  git commit -m "Change the headings font"
+   23  git status
+   24  npm install
+   25  npm i --save-dev gulp-concat
+   26  git status
+   27  git add .
+   28  git commit -m "Add gulp-concat npm package"
+   29  git status
+   30  git add .
+   31  git commit -m "Add gulp-concat npm package"
+   32  git status
+   33  git commit -am "Add gulp-concat npm package"
+   34  git status
+   35  git log
+   36  git status
+   37  cd ../
+   38  git status
+   39  cd ../
+   40  git status
+   41  git add .
+   42  git commit -m "Update the styles task in the gulp file to include concatenation"
+   43  git log
+   44  git status
+   45  git add .
+   46  git commit -m "Link styles2.css to html"
+   47  git status
+   48  git status
+   49  git switch main
+   50  git merge issue-1
+   51  git status
+   52  git branch
+   53  git branch -d issue-1
+   54  git branch
+   55  git branch
+   56  git status
+   57  git push
+   58  ls -la
+   59  git status
+   60  touch elizabeth-history.txt
+   61  history > elizabeth-history.txt
