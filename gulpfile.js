@@ -5,6 +5,7 @@ const imagemin = require('gulp-imagemin');
 
 // this should clean stuff
 
+// This task is supposed to clean things
 function cleanTask() {
   return del('dist');
 }
