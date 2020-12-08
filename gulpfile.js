@@ -2,6 +2,7 @@ const {src, dest, series, parallel} = require('gulp');
 const del = require('del');
 const concat = require('gulp-concat');
 
+// This task is supposed to clean things
 function cleanTask() {
   return del('dist');
 }
