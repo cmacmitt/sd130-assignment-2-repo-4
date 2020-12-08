@@ -1,0 +1,25 @@
+  1  git clone https://github.com/Adam-Isaak-dev/sd130-assignment-2-repo-4.git
+  2  git branch issue-2
+  3  cd sd130-assignment-2-repo-4
+  4  git branch issue-2
+  5  git checkout issue-2
+  6  code .
+  7  git status
+  8  npm install --save-dev gulp-uglify
+  9  gulp
+  10  gulp uninstall --save-dev gulp-uglify
+  11  npm  uninstall --save-dev gulp-uglify
+  12  npm install --save-dev terser
+  13  gulp uninstall --save-dev terser
+  14  npm  uninstall --save-dev terser
+  15  npm install --save-dev gulp-terser
+  16  git status 
+  17  git add src/scripts/main.js
+  18  git commit -m "add the add name functionality to the main.js"
+  19  git add  .
+  20  git commit -m "update the gulpfile to minify js files"
+  21  git checkout main
+  22  git merge issue-2
+  23  git status
+  24  git push origin main
+  25  history >> Adam-history.txt
