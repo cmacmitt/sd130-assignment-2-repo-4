@@ -13,5 +13,8 @@
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-terser": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^7.1.0"
   }
 }
