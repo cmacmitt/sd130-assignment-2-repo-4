@@ -1,5 +1,6 @@
 const {src, dest, series, parallel} = require('gulp');
 const del = require('del');
+const terser = require('gulp-terser');
 
 function cleanTask() {
   return del('dist');
@@ -12,6 +13,7 @@ function pagesTask() {
 
 function scriptsTask() {
   return src('src/scripts/**/*.js')
+    .pipe(terser())
     .pipe(dest('dist/js'));
 }
 
